@@ -109,7 +109,7 @@ int main(int argc, char** argv)
         
         std::cout<<"resulting time is "<< result<<std::endl;
 
-        benchmarks(n, result);
+       // benchmarks(n, result);
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
 
